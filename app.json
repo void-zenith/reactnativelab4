@@ -11,11 +11,13 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.zenithlab4",
+      "config": {
+        "googleMapsApiKey": "AIzaSyB4v7ENsCklsjmQxL9aOUSz22-fibnssEI"
+      }
     },
     "android": {
       "adaptiveIcon": {
